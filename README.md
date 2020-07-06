@@ -6,4 +6,6 @@
 ## userful commands
 * sam local invoke <ResourceFunctionName> --event event.json
 * sam build
-* sam vaalidate --template template.yaml
+  * builds are saved in .aws-sam/build
+  * evrytime you change the code you have to rebuild for both local testing and deploying latest code
+* sam validate --template template.yaml
