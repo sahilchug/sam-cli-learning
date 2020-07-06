@@ -5,3 +5,5 @@
 
 ## userful commands
 * sam local invoke <ResourceFunctionName> --event event.json
+* sam build
+* sam vaalidate --template template.yaml
